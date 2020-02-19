@@ -12,6 +12,10 @@ const SignIn = ({ onRouteChange }) => {
                 <div className="Tilt-inner pa4">
                   Welcome to SMARTBRAIN AI <br></br>
                   <span className="f3">Face Detection Software</span>
+                  <br></br>
+                  <span className="f6">
+                    (back-end work in progress click sign in to continue)
+                  </span>
                 </div>
               </Tilt>
             </legend>
