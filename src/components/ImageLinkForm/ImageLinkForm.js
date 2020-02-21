@@ -8,12 +8,13 @@ const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
         This Artificial Brain will detect the faces in your pictures.<br></br>{" "}
         Give it a try.
       </p>
-      <p className="f5">(paste an image url below and click submit)</p>
+      <p className="f5">(paste an image url below and click Detect)</p>
       <div className="center">
         <div className="form center pa4 br3 shadow-5">
           <input
             className="f4 pa2 w-70 ba bg-transparent center hover-bg-white-40"
             type="text"
+            y
             onChange={onInputChange}
           />
           <button
